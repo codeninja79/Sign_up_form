@@ -1,0 +1,160 @@
+@font-face{
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+label{
+    font-family: Norse-Bold;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction:row;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+h2{
+    margin-left: 1vw;
+}
+
+input:focus-visible{
+    
+    box-shadow: 2px 2px 2px 2px gray ;
+    border: medium solid blue;
+}
+
+input:invalid{
+    border: medium solid blue;
+}
+
+.random-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+p{
+    
+    margin:0;
+    
+}
+.single-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*Photo by <a href="https://unsplash.com/@guillepozzi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">guille pozzi</a> on <a href="https://unsplash.com/photos/low-angle-photo-of-starry-night-sbcIAn4Mn14?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  */
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("images/guille-pozzi-sbcIAn4Mn14-unsplash.jpg");
+    width: 40vw;
+    
+    
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(0,0,0,0.5);
+    width: 40vw;
+    margin-top: 14vh;
+    
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 100px;
+    font-family: Norse-Bold,sans-serif;
+
+}
+
+.logo-image{
+    width: 30%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(243, 244, 246);
+    width: 60vw;
+    
+}
+
+
+.detail-card{
+    background-color: white;
+    box-shadow: 5px 5px  5px 5px gray;
+    height: 35vh;
+    
+}
+
+.name-set,.contact-info,.password{
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+    
+}
+
+
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+button{
+    margin-left: 10px;
+    height: 50px;
+    width: 10vw;
+    background-color: #062b66;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.log-in{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+
+
+
+
+
